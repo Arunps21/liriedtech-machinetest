@@ -65,7 +65,7 @@ A professional, aesthetically pleasing Product Management System (PMS) built wit
 
 ---
 
-## �️ Application Routes
+## 🔗 Application Routes
 
 ### Authentication
 
@@ -86,6 +86,6 @@ A professional, aesthetically pleasing Product Management System (PMS) built wit
 
 ---
 
-## �👤 Author
+## 👤 Author
 
 - **Arun PS**
