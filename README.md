@@ -63,18 +63,29 @@ A professional, aesthetically pleasing Product Management System (PMS) built wit
     npm start
     ```
 
-## 🔌 API Endpoints (JSON)
+---
 
-- `POST /api/register` - Create a new account
-- `POST /api/login` - Authenticate and get token
-- `GET /api/products` - List all active products
-- `POST /api/products` - Create a new product
-- `PUT /api/products/:id` - Update product details
-- `DELETE /api/products/:id` - Soft delete a product
-- `GET /api/report` - Get inventory summary stats
+## �️ Application Routes
+
+### Authentication
+
+- `GET /login` - View login page
+- `POST /login` - Process login
+- `GET /register` - View registration page
+- `POST /register` - Process registration
+- `GET /logout` - Log out and clear session
+
+### Products (Protected)
+
+- `GET /` or `/dashboard` - View inventory dashboard
+- `GET /add-product` - View add product form
+- `POST /products` - Create a new product
+- `GET /edit-product/:id` - View edit product form
+- `PUT /products/:id` - Update existing product (via `_method=PUT`)
+- `DELETE /products/:id` - Soft delete product (via `_method=DELETE`)
 
 ---
 
-## 👤 Author
+## �👤 Author
 
 - **Arun PS**
